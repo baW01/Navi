@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.0,
+            52.001
+          ],
+          [
+            21.001,
+            52.0
+          ],
+          [
+            21.001,
+            52.001
+          ]
+        ]
+      },
+      "properties": {
+        "start_node": "4",
+        "end_node": "3",
+        "algorithm": "dijkstra",
+        "weight": "travel_time_s",
+        "node_path": [
+          "4",
+          "2",
+          "3"
+        ]
+      }
+    }
+  ]
+}

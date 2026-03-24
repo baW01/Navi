@@ -1,0 +1,267 @@
+{
+  "junctions": [
+    {
+      "id": "1",
+      "lat": 52.0,
+      "lon": 21.0,
+      "connected_segment_ids": [
+        "100:0:fwd"
+      ]
+    },
+    {
+      "id": "4",
+      "lat": 52.001,
+      "lon": 21.0,
+      "connected_segment_ids": [
+        "101:0:fwd",
+        "101:0:rev"
+      ]
+    },
+    {
+      "id": "5",
+      "lat": 51.9995,
+      "lon": 21.001,
+      "connected_segment_ids": [
+        "101:1:fwd",
+        "101:1:rev"
+      ]
+    },
+    {
+      "id": "3",
+      "lat": 52.001,
+      "lon": 21.001,
+      "connected_segment_ids": [
+        "100:1:fwd"
+      ]
+    },
+    {
+      "id": "2",
+      "lat": 52.0,
+      "lon": 21.001,
+      "connected_segment_ids": [
+        "100:0:fwd",
+        "100:1:fwd",
+        "101:0:fwd",
+        "101:0:rev",
+        "101:1:fwd",
+        "101:1:rev"
+      ]
+    }
+  ],
+  "road_segments": [
+    {
+      "id": "100:0:fwd",
+      "from_junction_id": "1",
+      "to_junction_id": "2",
+      "geometry": [
+        [
+          21.0,
+          52.0
+        ],
+        [
+          21.001,
+          52.0
+        ]
+      ],
+      "name": "Main St",
+      "ref": "DW100",
+      "road_class": "primary",
+      "oneway": true,
+      "maxspeed": 50,
+      "lanes": 2,
+      "surface": null,
+      "access_car": true,
+      "toll": false,
+      "bridge": false,
+      "tunnel": false,
+      "source_way_id": "100"
+    },
+    {
+      "id": "100:1:fwd",
+      "from_junction_id": "2",
+      "to_junction_id": "3",
+      "geometry": [
+        [
+          21.001,
+          52.0
+        ],
+        [
+          21.001,
+          52.001
+        ]
+      ],
+      "name": "Main St",
+      "ref": "DW100",
+      "road_class": "primary",
+      "oneway": true,
+      "maxspeed": 50,
+      "lanes": 2,
+      "surface": null,
+      "access_car": true,
+      "toll": false,
+      "bridge": false,
+      "tunnel": false,
+      "source_way_id": "100"
+    },
+    {
+      "id": "101:0:fwd",
+      "from_junction_id": "4",
+      "to_junction_id": "2",
+      "geometry": [
+        [
+          21.0,
+          52.001
+        ],
+        [
+          21.001,
+          52.0
+        ]
+      ],
+      "name": "Second St",
+      "ref": null,
+      "road_class": "secondary",
+      "oneway": false,
+      "maxspeed": null,
+      "lanes": null,
+      "surface": "asphalt",
+      "access_car": true,
+      "toll": false,
+      "bridge": false,
+      "tunnel": false,
+      "source_way_id": "101"
+    },
+    {
+      "id": "101:0:rev",
+      "from_junction_id": "2",
+      "to_junction_id": "4",
+      "geometry": [
+        [
+          21.001,
+          52.0
+        ],
+        [
+          21.0,
+          52.001
+        ]
+      ],
+      "name": "Second St",
+      "ref": null,
+      "road_class": "secondary",
+      "oneway": false,
+      "maxspeed": null,
+      "lanes": null,
+      "surface": "asphalt",
+      "access_car": true,
+      "toll": false,
+      "bridge": false,
+      "tunnel": false,
+      "source_way_id": "101"
+    },
+    {
+      "id": "101:1:fwd",
+      "from_junction_id": "2",
+      "to_junction_id": "5",
+      "geometry": [
+        [
+          21.001,
+          52.0
+        ],
+        [
+          21.001,
+          51.9995
+        ]
+      ],
+      "name": "Second St",
+      "ref": null,
+      "road_class": "secondary",
+      "oneway": false,
+      "maxspeed": null,
+      "lanes": null,
+      "surface": "asphalt",
+      "access_car": true,
+      "toll": false,
+      "bridge": false,
+      "tunnel": false,
+      "source_way_id": "101"
+    },
+    {
+      "id": "101:1:rev",
+      "from_junction_id": "5",
+      "to_junction_id": "2",
+      "geometry": [
+        [
+          21.001,
+          51.9995
+        ],
+        [
+          21.001,
+          52.0
+        ]
+      ],
+      "name": "Second St",
+      "ref": null,
+      "road_class": "secondary",
+      "oneway": false,
+      "maxspeed": null,
+      "lanes": null,
+      "surface": "asphalt",
+      "access_car": true,
+      "toll": false,
+      "bridge": false,
+      "tunnel": false,
+      "source_way_id": "101"
+    }
+  ],
+  "turn_restrictions": [
+    {
+      "id": "200:101:0:fwd:100:1:fwd",
+      "from_segment_id": "101:0:fwd",
+      "via_junction_id": "2",
+      "via_segment_id": null,
+      "to_segment_id": "100:1:fwd",
+      "restriction_type": "no_left_turn"
+    },
+    {
+      "id": "200:101:1:rev:100:1:fwd",
+      "from_segment_id": "101:1:rev",
+      "via_junction_id": "2",
+      "via_segment_id": null,
+      "to_segment_id": "100:1:fwd",
+      "restriction_type": "no_left_turn"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "11",
+      "house_number": "1",
+      "street": "Main St",
+      "city": "Test City",
+      "postcode": "00-001",
+      "country": "PL",
+      "lat": 52.0004,
+      "lon": 21.0004
+    }
+  ],
+  "poi": [
+    {
+      "id": "10",
+      "name": "Test Fuel",
+      "category": "amenity",
+      "subcategory": "fuel",
+      "lat": 52.0002,
+      "lon": 21.0002
+    }
+  ],
+  "metadata": {
+    "source_data": "tests/fixtures/mini.osm",
+    "imported_at": "2026-03-24T10:55:31.444903+00:00",
+    "bounding_box": [
+      21.0,
+      51.9995,
+      21.001,
+      52.001
+    ],
+    "region": "test-fixture",
+    "pipeline_version": "0.1.0"
+  }
+}

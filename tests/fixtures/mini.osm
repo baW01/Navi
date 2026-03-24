@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="mini-fixture">
+  <node id="1" lat="52.0000" lon="21.0000" />
+  <node id="2" lat="52.0000" lon="21.0010" />
+  <node id="3" lat="52.0010" lon="21.0010" />
+  <node id="4" lat="52.0010" lon="21.0000" />
+  <node id="5" lat="51.9995" lon="21.0010" />
+
+  <node id="10" lat="52.0002" lon="21.0002">
+    <tag k="amenity" v="fuel" />
+    <tag k="name" v="Test Fuel" />
+  </node>
+
+  <node id="11" lat="52.0004" lon="21.0004">
+    <tag k="addr:housenumber" v="1" />
+    <tag k="addr:street" v="Main St" />
+    <tag k="addr:city" v="Test City" />
+    <tag k="addr:postcode" v="00-001" />
+    <tag k="addr:country" v="PL" />
+  </node>
+
+  <way id="100">
+    <nd ref="1" />
+    <nd ref="2" />
+    <nd ref="3" />
+    <tag k="highway" v="primary" />
+    <tag k="name" v="Main St" />
+    <tag k="ref" v="DW100" />
+    <tag k="oneway" v="yes" />
+    <tag k="maxspeed" v="50" />
+    <tag k="lanes" v="2" />
+  </way>
+
+  <way id="101">
+    <nd ref="4" />
+    <nd ref="2" />
+    <nd ref="5" />
+    <tag k="highway" v="secondary" />
+    <tag k="name" v="Second St" />
+    <tag k="surface" v="asphalt" />
+  </way>
+
+  <relation id="200">
+    <member type="way" ref="101" role="from" />
+    <member type="node" ref="2" role="via" />
+    <member type="way" ref="100" role="to" />
+    <tag k="type" v="restriction" />
+    <tag k="restriction" v="no_left_turn" />
+  </relation>
+</osm>

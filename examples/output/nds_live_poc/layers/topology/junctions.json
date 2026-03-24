@@ -1,0 +1,49 @@
+[
+  {
+    "id": "1",
+    "lat": 52.0,
+    "lon": 21.0,
+    "connected_segment_ids": [
+      "100:0:fwd"
+    ]
+  },
+  {
+    "id": "4",
+    "lat": 52.001,
+    "lon": 21.0,
+    "connected_segment_ids": [
+      "101:0:fwd",
+      "101:0:rev"
+    ]
+  },
+  {
+    "id": "5",
+    "lat": 51.9995,
+    "lon": 21.001,
+    "connected_segment_ids": [
+      "101:1:fwd",
+      "101:1:rev"
+    ]
+  },
+  {
+    "id": "3",
+    "lat": 52.001,
+    "lon": 21.001,
+    "connected_segment_ids": [
+      "100:1:fwd"
+    ]
+  },
+  {
+    "id": "2",
+    "lat": 52.0,
+    "lon": 21.001,
+    "connected_segment_ids": [
+      "100:0:fwd",
+      "100:1:fwd",
+      "101:0:fwd",
+      "101:0:rev",
+      "101:1:fwd",
+      "101:1:rev"
+    ]
+  }
+]

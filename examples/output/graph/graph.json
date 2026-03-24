@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "lat": 52.0,
+      "lon": 21.0
+    },
+    {
+      "id": "4",
+      "lat": 52.001,
+      "lon": 21.0
+    },
+    {
+      "id": "5",
+      "lat": 51.9995,
+      "lon": 21.001
+    },
+    {
+      "id": "3",
+      "lat": 52.001,
+      "lon": 21.001
+    },
+    {
+      "id": "2",
+      "lat": 52.0,
+      "lon": 21.001
+    }
+  ],
+  "edges": [
+    {
+      "segment_id": "100:0:fwd",
+      "from_junction_id": "1",
+      "to_junction_id": "2",
+      "length_m": 68.45843258626151,
+      "travel_time_s": 4.929007146210829
+    },
+    {
+      "segment_id": "100:1:fwd",
+      "from_junction_id": "2",
+      "to_junction_id": "3",
+      "length_m": 111.1949266442996,
+      "travel_time_s": 8.006034718389571
+    },
+    {
+      "segment_id": "101:0:fwd",
+      "from_junction_id": "4",
+      "to_junction_id": "2",
+      "length_m": 130.57857408169662,
+      "travel_time_s": 7.834714444901796
+    },
+    {
+      "segment_id": "101:0:rev",
+      "from_junction_id": "2",
+      "to_junction_id": "4",
+      "length_m": 130.57857408169662,
+      "travel_time_s": 7.834714444901796
+    },
+    {
+      "segment_id": "101:1:fwd",
+      "from_junction_id": "2",
+      "to_junction_id": "5",
+      "length_m": 55.59746332254482,
+      "travel_time_s": 3.3358477993526887
+    },
+    {
+      "segment_id": "101:1:rev",
+      "from_junction_id": "5",
+      "to_junction_id": "2",
+      "length_m": 55.59746332254482,
+      "travel_time_s": 3.3358477993526887
+    }
+  ]
+}

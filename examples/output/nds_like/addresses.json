@@ -1,0 +1,12 @@
+[
+  {
+    "id": "11",
+    "house_number": "1",
+    "street": "Main St",
+    "city": "Test City",
+    "postcode": "00-001",
+    "country": "PL",
+    "lat": 52.0004,
+    "lon": 21.0004
+  }
+]

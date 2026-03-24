@@ -1,0 +1,10 @@
+{
+  "note": "To jest jawny PoC warstwowy inspirowany NDS.Live. To NIE jest pełna implementacja zamkniętych/binary OEM specyfikacji.",
+  "conceptual_mapping": {
+    "RoadNetworkLayer": "layers/road_network/segments.json",
+    "TopologyLayer": "layers/topology/junctions.json",
+    "TurnRestrictionLayer": "layers/restrictions/turn_restrictions.json",
+    "AddressLayer": "layers/addressing/addresses.json",
+    "POILayer": "layers/poi/poi.json"
+  }
+}

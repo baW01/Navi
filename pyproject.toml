@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "navi-osm-pipeline"
+version = "0.1.0"
+description = "OSM -> canonical automotive navigation schema -> NDS-like/NDS.Live PoC"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Navi PoC" }]
+dependencies = [
+  "typer>=0.12",
+  "pydantic>=2.7",
+  "networkx>=3.3",
+  "shapely>=2.0",
+  "orjson>=3.10",
+  "osmium>=3.7",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2",
+]
+
+[project.scripts]
+navi = "navi.cli.main:app"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

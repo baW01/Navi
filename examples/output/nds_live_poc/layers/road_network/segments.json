@@ -1,0 +1,164 @@
+[
+  {
+    "id": "100:0:fwd",
+    "from_junction_id": "1",
+    "to_junction_id": "2",
+    "geometry": [
+      [
+        21.0,
+        52.0
+      ],
+      [
+        21.001,
+        52.0
+      ]
+    ],
+    "name": "Main St",
+    "ref": "DW100",
+    "road_class": "primary",
+    "oneway": true,
+    "maxspeed": 50,
+    "lanes": 2,
+    "surface": null,
+    "access_car": true,
+    "toll": false,
+    "bridge": false,
+    "tunnel": false,
+    "source_way_id": "100"
+  },
+  {
+    "id": "100:1:fwd",
+    "from_junction_id": "2",
+    "to_junction_id": "3",
+    "geometry": [
+      [
+        21.001,
+        52.0
+      ],
+      [
+        21.001,
+        52.001
+      ]
+    ],
+    "name": "Main St",
+    "ref": "DW100",
+    "road_class": "primary",
+    "oneway": true,
+    "maxspeed": 50,
+    "lanes": 2,
+    "surface": null,
+    "access_car": true,
+    "toll": false,
+    "bridge": false,
+    "tunnel": false,
+    "source_way_id": "100"
+  },
+  {
+    "id": "101:0:fwd",
+    "from_junction_id": "4",
+    "to_junction_id": "2",
+    "geometry": [
+      [
+        21.0,
+        52.001
+      ],
+      [
+        21.001,
+        52.0
+      ]
+    ],
+    "name": "Second St",
+    "ref": null,
+    "road_class": "secondary",
+    "oneway": false,
+    "maxspeed": null,
+    "lanes": null,
+    "surface": "asphalt",
+    "access_car": true,
+    "toll": false,
+    "bridge": false,
+    "tunnel": false,
+    "source_way_id": "101"
+  },
+  {
+    "id": "101:0:rev",
+    "from_junction_id": "2",
+    "to_junction_id": "4",
+    "geometry": [
+      [
+        21.001,
+        52.0
+      ],
+      [
+        21.0,
+        52.001
+      ]
+    ],
+    "name": "Second St",
+    "ref": null,
+    "road_class": "secondary",
+    "oneway": false,
+    "maxspeed": null,
+    "lanes": null,
+    "surface": "asphalt",
+    "access_car": true,
+    "toll": false,
+    "bridge": false,
+    "tunnel": false,
+    "source_way_id": "101"
+  },
+  {
+    "id": "101:1:fwd",
+    "from_junction_id": "2",
+    "to_junction_id": "5",
+    "geometry": [
+      [
+        21.001,
+        52.0
+      ],
+      [
+        21.001,
+        51.9995
+      ]
+    ],
+    "name": "Second St",
+    "ref": null,
+    "road_class": "secondary",
+    "oneway": false,
+    "maxspeed": null,
+    "lanes": null,
+    "surface": "asphalt",
+    "access_car": true,
+    "toll": false,
+    "bridge": false,
+    "tunnel": false,
+    "source_way_id": "101"
+  },
+  {
+    "id": "101:1:rev",
+    "from_junction_id": "5",
+    "to_junction_id": "2",
+    "geometry": [
+      [
+        21.001,
+        51.9995
+      ],
+      [
+        21.001,
+        52.0
+      ]
+    ],
+    "name": "Second St",
+    "ref": null,
+    "road_class": "secondary",
+    "oneway": false,
+    "maxspeed": null,
+    "lanes": null,
+    "surface": "asphalt",
+    "access_car": true,
+    "toll": false,
+    "bridge": false,
+    "tunnel": false,
+    "source_way_id": "101"
+  }
+]

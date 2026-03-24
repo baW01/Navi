@@ -1,0 +1,18 @@
+[
+  {
+    "id": "200:101:0:fwd:100:1:fwd",
+    "from_segment_id": "101:0:fwd",
+    "via_junction_id": "2",
+    "via_segment_id": null,
+    "to_segment_id": "100:1:fwd",
+    "restriction_type": "no_left_turn"
+  },
+  {
+    "id": "200:101:1:rev:100:1:fwd",
+    "from_segment_id": "101:1:rev",
+    "via_junction_id": "2",
+    "via_segment_id": null,
+    "to_segment_id": "100:1:fwd",
+    "restriction_type": "no_left_turn"
+  }
+]

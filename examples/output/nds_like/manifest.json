@@ -1,0 +1,11 @@
+{
+  "format": "nds_like",
+  "version": "0.1.0",
+  "entities": {
+    "junctions": 5,
+    "road_segments": 6,
+    "turn_restrictions": 2,
+    "addresses": 1,
+    "poi": 1
+  }
+}
